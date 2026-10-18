@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.main-background {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+    height: 480px;
+    background: linear-gradient(135deg, #5B8CFF 0%, #6DD5FA 50%, #c9c8c8 100%);
+    border-radius: 20px;
+}
+
+.top-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: none;
+}
+
+.search-button {
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.weather-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.degree {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+    /* margin-bottom: 5px; */
+}
+
+.city {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.humidity, .wind-speed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+}
+
+.humidity-text, .wind-text {
+    /* font-size: 14px;
+    font-weight: 400; */
+    margin-left: 10px;
+}
+
+.percentage, .speed {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.humidity-txt, .wind-txt {
+    font-size: 12px;
+    font-weight: 400;
+}
