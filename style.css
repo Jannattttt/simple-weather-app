@@ -23,7 +23,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 28%;
+    width: 350px;
     height: 480px;
     background: linear-gradient(135deg, #5B8CFF 0%, #6DD5FA 50%, #c9c8c8 100%);
     border-radius: 20px;
@@ -34,7 +34,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .search-bar {
@@ -49,12 +49,22 @@ body {
     border: none;
 }
 
+.search-bar:active, .search-bar:focus {
+    outline: none;
+}
+
 .search-button {
     width: 42px;
     height: 42px;
     border: none;
     border-radius: 50%;
     background-color: #fff;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
 }
 
 .weather-display {

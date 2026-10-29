@@ -10,28 +10,31 @@
     <div class="main-container">
         <div class="main-background">
             <div class="top-items">
-                <input type="text" placeholder="Enter city name..." class="search-bar">
-                <button class="search-button">
+                <input type="text" placeholder="Enter city name..." class="search-bar" id="searchInput">
+                <button class="search-button" id="searchButton">
                     <img src="images/search.png" alt="Search" width="15px">
                 </button>
             </div>
+            <p class="errorMessage" id="errorMessage">
+                <!-- <p class="message">Enter a valid city</p> -->
+            </p>
             <div class="weather-display">
-                <img src="images/clear.png" alt="Weather Icon" class="weather-icon" width="120">
-                <h2 class="degree">25°C</h2>
-                <h3 class="city">New York</h3>
+                <img src="images/clear.png" alt="Weather Icon" class="weather-icon" width="120" id="weatherIcon">
+                <h2 class="degree" id="weatherDegree">25°C</h2>
+                <h3 class="city" id="cityValue">New York</h3>
             </div>
             <div class="stats">
                 <div class="humidity">
                     <img src="images/humidity.png" alt="Humidity Icon" width="30">
                     <div class="humidity-text">
-                        <p class="percentage">60%</p>
+                        <p class="percentage" id="humidity">60%</p>
                         <p class="humidity-txt">Humidity</p>
                     </div>
                 </div>
                 <div class="wind-speed">
                     <img src="images/wind.png" alt="Wind Icon" width="30">
                     <div class="wind-text">
-                        <p class="speed">15 km/h</p>
+                        <p class="speed" id="windSpeed">15 km/h</p>
                         <p class="wind-txt">Wind Speed</p>
                     </div>
                 </div>
